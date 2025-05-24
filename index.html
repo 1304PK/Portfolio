@@ -1,44 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
+
 <body>
-    <header>
+    <header id="header">
         <img src="assets/logo.jpg" alt="">
 
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Tech Stack</li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#aboutme-section">About Me</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#learning-section">Tech Stack</a></li>
             </ul>
         </nav>
 
-        <button>Contact Me</button>
+        <button class="contact-button">Contact Me</button>
     </header>
 
     <section id="aboutme-section">
         <div id="s1-subcontainer">
-        <h2>Hello</h1>
-        <h1>I'm Pushkar, CSE Student
-        </h1>
+            <h2>Hello</h2>
+            <h1>I'm AAAAAAA, CSE Student
+            </h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, cum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, cum!</p>
 
-        <div id="buttons">
-            <button>Hire Me</button>
-            <button>Contact Me</button>
+            <div id="buttons">
+                <button id="hire-me">Hire Me</button>
+                <button id="contact-me" class="contact-button">Contact Me</button>
+            </div>
         </div>
-    </div>
 
-    <div id="photo">
-        <img src="assets/tony-stark.png" alt="">
-    </div>
+        <div id="photo">
+            <img src="assets/tony-stark.png" alt="">
+        </div>
     </section>
+
+    <section id="learning-section">
+        <h1>Currently Learning</h1>
+        <div id="subcontainer">
+            <div class="tech-stack">
+                <img src="assets/python.jpg" alt="">
+                Python
+            </div>
+            <div class="tech-stack">
+                <img src="assets/html.jpg" alt="">
+                HTML
+            </div>
+            <div class="tech-stack">
+                <img src="assets/css.jpg" alt="">
+                CSS
+            </div>
+            <div class="tech-stack">
+                <img src="assets/js.jpg" alt="">
+                JS
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project-section">
+        <h1>Projects</h1>
+
+        <div id="project-container">
+            <div class="project">
+                <img src="assets/project-tictactoe.jpg" alt="">
+                <h2 class="project-name">Tic Tac Toe</h2>
+                <p class="project-desc">A Tic Tac Toe game using HTML, CSS, and JavaScript with interactive UI and logic
+                    handling.</p>
+            </div>
+
+            <div class="project">
+                <img src="assets/project-calculator.png" alt="">
+                <h2 class="project-name">Calculator</h2>
+                <p class="project-desc">A calculator using HTML, CSS, and JavaScript with clean UI and basic arithmetic
+                    functionality.</p>
+            </div>
+
+            <div class="project">
+                <img src="assets/project-library.jpg" alt="">
+                <h2 class="project-name">Library</h2>
+                <p class="project-desc">A library app using HTML, CSS, and JavaScript to store and manage read book
+                    titles.</p>
+            </div>
+
+            <div class="project">
+                <img src="assets/project-brickbreaker.png" alt="">
+                <h2 class="project-name">Brick Breaker</h2>
+                <p class="project-desc">A classic Brick Breaker game in Python featuring paddle control, ball physics,
+                    and score tracking.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h1>Contact Me</h1>
+        <div id="contact-container">
+            <p>Email: dummy@email.com</p>
+            <p>Contact No: 9999999999</p>
+        </div>
+        <div id="link-container">
+            <div class="link">
+                <img src="assets/logo-github.png" alt="">
+            </div>
+
+            <div class="link">
+                <img src="assets/logo-instagram.jpg" alt="">
+            </div>
+
+            <div class="link">
+                <img src="assets/logo-discord.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Made by 1304PK - 2025
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
