@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0d1321;
+    color: white;
+}
+
+header{
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: lightblue;;
+}
+
+header img{
+    width: 60px;
+}
+
+nav ul{
+    display: flex;
+    gap: 3vmin;
+    list-style-type: none;
+}
+
+header button{
+    background-color: #3e5c76;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.3vmin 3.5vmin; 
+    color: white;
+}
+
+/* ABOUT ME SECTION */
+
+#aboutme-section{
+    display: flex;
+}
+
